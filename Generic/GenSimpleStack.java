@@ -18,7 +18,7 @@ class GenSimpleStack<T> implements IGenSimpleStack<T>
     {
         if(isEmpty())
             throw new StackEmptyException();
-        return stack[tos--];
+        return stack[--tos];
     }
     public boolean isEmpty()
     {

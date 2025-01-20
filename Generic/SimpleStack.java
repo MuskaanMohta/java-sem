@@ -11,7 +11,7 @@ public class SimpleStack
             int ch=sc.nextInt();
             switch(ch)
             {
-                case 0:System.exit(0);
+                
                 case 1:
                     try
                     {
@@ -32,6 +32,8 @@ public class SimpleStack
                     {
                         System.out.print(ex);
                     }
+                    break;
+                case 0:System.exit(0);
                 default:System.out.print("Invalid Choice\n");
             }
 
